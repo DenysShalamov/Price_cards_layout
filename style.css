@@ -1,7 +1,7 @@
 .price-cards {
   display: flex;
   justify-content: space-between;
-  margin: 115px auto;
+  margin: auto;
   height: 770px;
   width: 1176px;
   color: #fff;
