@@ -2,14 +2,14 @@
   position: relative;
   width: 380px;
   height: 770px;
-  background-color: #334247;
+  margin-right: 18px;
   padding: 33px 0 40px;
   text-align: center;
   overflow: hidden;
+  background-color: #334247;
   color: #fff;
-  margin-right: 18px;
 }
-.price-card:last-child {
+.price-card:nth-child(3) {
   margin-right: 0;
 }
 .price-card__title {

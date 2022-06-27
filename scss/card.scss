@@ -2,17 +2,17 @@
   position: relative;
   width: 380px;
   height: 770px;
-  background-color: $card-bg;
+  margin-right: 18px;
   padding: 33px 0 40px;
   text-align: center;
   overflow: hidden;
+  background-color: $card-bg;
   color: $font-color;
-  margin-right: 18px;
-  &:last-child {
-    margin-right: 0;
-  }  
-  
 
+  &:nth-child(3) {
+    margin-right: 0;
+  } 
+  
   &__title {
     text-align: center;
     font-size: 35px;
