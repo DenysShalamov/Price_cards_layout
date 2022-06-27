@@ -1,8 +1,7 @@
 .price-cards {
   display: flex;
   justify-content: space-between;
-  margin: auto;
-  width: 1176px;
+  min-width: 1176px;
   color: #fff;
 }
 
@@ -128,8 +127,8 @@ ul {
 
 .main-page {
   display: flex;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
+  align-items: center;
   background-color: #141b1c;
 }
 
