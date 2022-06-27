@@ -1,0 +1,19 @@
+html {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #141b1c;
+}
+
+/*# sourceMappingURL=style.css.map */
