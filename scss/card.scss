@@ -1,17 +1,18 @@
+.price-cards {
+  display: flex;
+  width: 1176px;
+  justify-content: space-between;
+}
+
 .price-card {
   position: relative;
   width: 380px;
   height: 770px;
-  margin-right: 18px;
   padding: 33px 0 40px;
   text-align: center;
   overflow: hidden;
   background-color: $card-bg;
   color: $font-color;
-
-  &:nth-child(3) {
-    margin-right: 0;
-  } 
   
   &__title {
     text-align: center;
@@ -21,7 +22,7 @@
 
   &__subtitle {
     text-align: center;
-    padding-bottom: 33px;
+    margin-bottom: 33px;
     font-size: 20px;
   }
 
