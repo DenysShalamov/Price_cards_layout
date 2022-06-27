@@ -33,3 +33,14 @@ body {
   background-color: $page-bg;
   
 }
+
+.label {
+  position: absolute;
+  right: -31px;
+  top: 31px;
+  transform: rotate(45deg);
+  padding: 4px 36px;
+  line-height: 17px;
+  font-weight: 700;
+  background-color: $label-bg;
+}

@@ -1,7 +1,7 @@
 .price-cards {
   display: flex;
-  width: 1176px;
   justify-content: space-between;
+  width: 1176px;
 }
 
 .price-card {
@@ -9,8 +9,8 @@
   width: 380px;
   height: 770px;
   padding: 33px 0 40px;
-  text-align: center;
   overflow: hidden;
+  text-align: center;
   background-color: $card-bg;
   color: $font-color;
   
@@ -21,28 +21,29 @@
   }
 
   &__subtitle {
-    text-align: center;
+    display: inline-block;
     margin-bottom: 33px;
-    font-size: 20px;
+    text-align: center;
     line-height: 24px;
+    font-size: 20px;
   }
 
   &__price {
     display: flex;
+    margin-bottom: 40px;
     width: 100%;
     height: 105px;
-    margin-bottom: 40px;
 
-    &_basic {
-      background-color: $basic-bg;
+    &_green {
+      background-color: $green-bg;
     }
 
-    &_business {
-      background-color: $business-bg;
+    &_blue {
+      background-color: $blue-bg;
     }
 
-    &_webshop {
-      background-color: $webshop-bg;
+    &_orange {
+      background-color: $orange-bg;
     }
   }
 
@@ -52,7 +53,7 @@
     line-height: 67px;
   }
 
-  &__description {
+  &__descr {
     text-align: center;
     padding: 0 26px;
     margin-bottom: 40px;
@@ -99,27 +100,16 @@
     border-radius: 20px;
     color: $font-color;
 
-    &_basic {
-      background-color: $basic-bg;
+    &_green {
+      background-color: $green-bg;
     }
 
-    &_business {
-      background-color: $business-bg;
+    &_blue {
+      background-color: $blue-bg;
     }
 
-    &_webshop {
-      background-color: $webshop-bg;
+    &_orange {
+      background-color: $orange-bg;
     }
   }
-}
-
-.label {
-  position: absolute;
-  right: -31px;
-  top: 31px;
-  transform: rotate(45deg);
-  padding: 4px 36px;
-  background-color: $label-bg;
-  line-height: 17px;
-  font-weight: 700;
 }
