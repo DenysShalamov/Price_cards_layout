@@ -1,18 +1,17 @@
-.price-cards {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  min-width: 1176px;
-  color: $font-color;
-}
-
 .price-card {
   position: relative;
   width: 380px;
+  height: 770px;
   background-color: $card-bg;
   padding: 33px 0 40px;
   text-align: center;
   overflow: hidden;
+  color: $font-color;
+  margin-right: 18px;
+  &:last-child {
+    margin-right: 0;
+  }  
+  
 
   &__title {
     text-align: center;
