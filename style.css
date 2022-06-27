@@ -129,6 +129,8 @@ ul {
 body {
   display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   background-color: #141b1c;
 }

@@ -27,6 +27,8 @@ ul {
 body {
   display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
   // height: 1000px;
   height: 100%;
   background-color: $page-bg;
