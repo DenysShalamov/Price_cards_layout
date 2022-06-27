@@ -2,8 +2,18 @@
   height: 770px;
   width: 1176px;
   display: flex;
+  justify-content: space-between;
+  color: $font-color;
 }
 
 .price-card {
+  width: 380px;
+  background-color: $card-bg;
+  padding: 33px 0 40px;
 
+  &__title {
+    text-align: center;
+    font-size: 35px;
+    line-height: 43px;
+  }
 }
