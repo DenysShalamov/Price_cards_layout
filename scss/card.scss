@@ -1,19 +1,125 @@
 .price-cards {
-  height: 770px;
-  width: 1176px;
   display: flex;
   justify-content: space-between;
+  margin: 115px auto;
+  height: 770px;
+  width: 1176px;
   color: $font-color;
 }
 
 .price-card {
+  position: relative;
   width: 380px;
   background-color: $card-bg;
   padding: 33px 0 40px;
+  text-align: center;
+  overflow: hidden;
 
   &__title {
     text-align: center;
     font-size: 35px;
     line-height: 43px;
   }
+
+  &__subtitle {
+    text-align: center;
+    padding-bottom: 33px;
+    font-size: 20px;
+  }
+
+  &__cost {
+    display: flex;
+    width: 100%;
+    height: 105px;
+    margin-bottom: 40px;
+
+    &_basic {
+      background-color: $basic-bg;
+    }
+
+    &_business {
+      background-color: $business-bg;
+    }
+
+    &_webshop {
+      background-color: $webshop-bg;
+    }
+  }
+
+  &__cost-value {
+    margin: auto;
+    font-size: 55px;
+    line-height: 67px;
+  }
+
+  &__description {
+    text-align: center;
+    padding: 0 26px;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    margin-bottom: 39px;
+    text-align: left;
+  }
+
+  &__list-item {
+    line-height: 50px;
+    padding-left: 22px;
+
+    &:nth-child(odd) {
+      background-color: $list-item-bg;
+    }
+  }
+
+  &__list-item-icon {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    margin-right: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &_green {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+    }
+
+    &_blue {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+    }
+
+    &_orange {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+    }
+  }
+
+  &__btn {
+    padding: 11px 27px 12px;
+    border: none;
+    border-radius: 20px;
+    color: $font-color;
+
+    &_basic {
+      background-color: $basic-bg;
+    }
+
+    &_business {
+      background-color: $business-bg;
+    }
+
+    &_webshop {
+      background-color: $webshop-bg;
+    }
+  }
+}
+
+.label {
+  position: absolute;
+  right: -31px;
+  top: 31px;
+  transform: rotate(45deg);
+  padding: 4px 36px;
+  background-color: $label-bg;
+  line-height: 17px;
+  font-weight: 700;
 }

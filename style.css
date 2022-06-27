@@ -1,25 +1,114 @@
 .price-cards {
-  height: 770px;
-  width: 1176px;
   display: flex;
   justify-content: space-between;
+  margin: 115px auto;
+  height: 770px;
+  width: 1176px;
   color: #fff;
 }
 
 .price-card {
+  position: relative;
   width: 380px;
   background-color: #334247;
   padding: 33px 0 40px;
+  text-align: center;
+  overflow: hidden;
 }
 .price-card__title {
   text-align: center;
   font-size: 35px;
   line-height: 43px;
 }
+.price-card__subtitle {
+  text-align: center;
+  padding-bottom: 33px;
+  font-size: 20px;
+}
+.price-card__cost {
+  display: flex;
+  width: 100%;
+  height: 105px;
+  margin-bottom: 40px;
+}
+.price-card__cost_basic {
+  background-color: #5BB189;
+}
+.price-card__cost_business {
+  background-color: #3A6BA5;
+}
+.price-card__cost_webshop {
+  background-color: #EC632A;
+}
+.price-card__cost-value {
+  margin: auto;
+  font-size: 55px;
+  line-height: 67px;
+}
+.price-card__description {
+  text-align: center;
+  padding: 0 26px;
+  margin-bottom: 40px;
+}
+.price-card__list {
+  margin-bottom: 39px;
+  text-align: left;
+}
+.price-card__list-item {
+  line-height: 50px;
+  padding-left: 22px;
+}
+.price-card__list-item:nth-child(odd) {
+  background-color: #2A3438;
+}
+.price-card__list-item-icon {
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  margin-right: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.price-card__list-item-icon_green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+.price-card__list-item-icon_blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+.price-card__list-item-icon_orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+.price-card__btn {
+  padding: 11px 27px 12px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+}
+.price-card__btn_basic {
+  background-color: #5BB189;
+}
+.price-card__btn_business {
+  background-color: #3A6BA5;
+}
+.price-card__btn_webshop {
+  background-color: #EC632A;
+}
+
+.label {
+  position: absolute;
+  right: -31px;
+  top: 31px;
+  transform: rotate(45deg);
+  padding: 4px 36px;
+  background-color: #DC3F45;
+  line-height: 17px;
+  font-weight: 700;
+}
 
 html {
-  font-family: "Montserrat Subrayada", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  font-weight: 300;
 }
 
 * {
@@ -40,8 +129,6 @@ ul {
 
 .main-page {
   display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   background-color: #141b1c;
