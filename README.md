@@ -2,7 +2,7 @@
 
 ### [Price_cards_layout DEMO](https://denysshalamov.github.io/Price_cards_layout/)
 
-Layout support desktop (up-to-1400) version
+Layout support desktop (up-to-1440) version
 
 ### The tech stack is:
 
