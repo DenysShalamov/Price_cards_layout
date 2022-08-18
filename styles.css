@@ -1,8 +1,8 @@
 .price-cards {
   display: flex;
   margin: auto;
-  justify-content: space-between;
   width: 1176px;
+  justify-content: space-between;
 }
 
 .price-card {
@@ -47,7 +47,7 @@
   font-size: 55px;
   line-height: 67px;
 }
-.price-card__descr {
+.price-card__description {
   text-align: center;
   padding: 0 26px;
   margin-bottom: 40px;
@@ -57,17 +57,17 @@
   text-align: left;
 }
 .price-card__list-item {
-  line-height: 50px;
   padding-left: 22px;
+  line-height: 50px;
 }
 .price-card__list-item:nth-child(odd) {
   background-color: #2A3438;
 }
 .price-card__list-item-icon {
   display: inline-block;
+  margin-right: 22px;
   width: 15px;
   height: 13px;
-  margin-right: 22px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -136,4 +136,4 @@ body {
   background-color: #DC3F45;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
